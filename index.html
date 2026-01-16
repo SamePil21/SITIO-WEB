@@ -16,9 +16,10 @@
         <div id="logo"><img src="images/logofisio.png" alt="fisioterapia"></div>
         <div id="menu">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Lecciones</a></li>
-                <li><a href="#">Autocuidado</a></li>
+                
+                <li><a href="#" onclick="mostrarAlerta()">Inicio</a></li>
+                <li><a href="#"onclick="suma()">Lecciones</a></li>
+                <li><a href="#" onclick="sumaparam(12,30)">Autocuidado</a></li>
                 <li><a href="#">Deporte</a></li>
                 <li><a href="#">Mujer</a></li>
                 <li><a href="#">Bebé</a></li>
@@ -64,20 +65,16 @@
         </div>
     </div >
 
-    <dir id="contenedorabajo">
-    <h1 class="encabezado">Clinica de Fisioterapia y Rehabilitacion</h1>
-    <h1 class="encabezado">Servicios Terapeuticos</h1>
-    <h1 class="encabezado">Rehablilitacion Funcional</h1>
-    <p>Hola, bienvenido al sitio de fisioterapia.
-        En esta sección encontratas información de nuestro
-        servicios, horarios y mucho mas...</p>
+<div>
+    valor1: <input type="number" name="val1" id="val1">
+    valor2: <input type="number" name="val2" id="val2">
+<button onclick="sumarInput()">calcular</button>
+    mensaje:<input type="text" name="mensaje" id="mensaje">
+    
+    </div>
 
-    <button onclick="mostrarAlerta()">Alerta</button>
-    <script src="js/codigo.js"></script>
-    </dir>
-
-
-
+    <script src="js/codigo.js"> </script>
 </body>
+
 
 </html>
